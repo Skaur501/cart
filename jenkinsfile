@@ -1,28 +1,2 @@
 @Library('Roboshop') _
 
-pipeline {
-   agent any
-
-   stages {
-
-      stage ('code quality') {
-        steps{
-           script{
-           log.info 'code quality'
-           }
-        }
-      }
-
-      stage ('Test cases') {
-        steps {
-          echo 'test cases'
-        }
-      }
-
-      stage ('Publish a release') {
-        steps {
-           echo 'Publish a release'
-        }
-      }
-   }
-}
