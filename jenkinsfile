@@ -1,5 +1,5 @@
 @Library('Roboshop') _
 
-enc.COMPONENT= "cart"
+env.COMPONENT= "cart"
 env.REPO_URL= "https://github.com/Skaur501/cart.git"
 nodejs()
